@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Form Practice</title>
+</head>
+<body>
+    <h2>Library</h2>
+    <div class="container">
+        <div class="sidebar" name="sidebar" id="sidebar">
+            <form class="inputform">
+                <input class="textinput" type="text"placeholder="Title"         id="title" autocomplete="off">
+                <input class="textinput" type="text"placeholder="Author" 
+                    id="author" autocomplete="off">
+
+                <br>
+                <div class="spacer"></div>
+                <div class="togglefield">   
+                    <div class="rbswrapper">              
+                        <input type="radio" class="rbs"" id="have-read"     name="read" value="read"checked>
+                        <label for="have-read" class="label">Read</label>
+                    </div> 
+                    <div class="rbswrapper">
+                        <input type="radio" class="rbs" id="not-read"   name="read" value="not read">
+                        <label for="not-read" class="label">Not Read</label>
+                    </div>
+                </div>
+                <div class="btnwrapper">
+                    <button type="button" id="btnsubmit" class="button">Add Book</button>
+                </div>
+            </form>
+
+        </div>
+        <div class="tilecontainer" id="tilecontainer">
+            <!--<div class="tile" name="tile" id="tile1"></div>
+                <div class="title" id="title1"></div></div>
+                <div class="author" id="author1"></div></div>
+                <div class="read" id="read1"></div></div>
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>
